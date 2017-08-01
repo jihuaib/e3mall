@@ -4,10 +4,56 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>muping.e3mall</groupId>
+    <parent>
+        <artifactId>e3-manager</artifactId>
+        <groupId>muping.e3mall</groupId>
+        <version>1.0.0</version>
+    </parent>
+
     <artifactId>e3-manager-service</artifactId>
-    <version>1.0.0</version>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>muping.e3mall</groupId>
+            <artifactId>e3-manager-interface</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>muping.e3mall</groupId>
+            <artifactId>e3-manager-mapper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>

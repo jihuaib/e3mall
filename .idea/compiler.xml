@@ -8,13 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="e3-common" />
+        <module name="e3-manager-domain" />
+        <module name="e3-manager-interface" />
+        <module name="e3-manager-mapper" />
+        <module name="e3-manager-service" />
+        <module name="e3-manager-web" />
         <module name="e3mall" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="e3-common" target="1.5" />
-      <module name="e3-manager" target="1.5" />
-      <module name="e3-parent" target="1.5" />
+      <module name="e3-common" target="1.7" />
+      <module name="e3-manager" target="1.7" />
+      <module name="e3-manager-domain" target="1.7" />
+      <module name="e3-manager-interface" target="1.7" />
+      <module name="e3-manager-mapper" target="1.7" />
+      <module name="e3-manager-service" target="1.7" />
+      <module name="e3-manager-web" target="1.7" />
+      <module name="e3-parent" target="1.7" />
       <module name="e3mall" target="1.5" />
     </bytecodeTargetLevel>
   </component>
