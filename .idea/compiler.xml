@@ -12,7 +12,7 @@
         <module name="e3-manager-interface" />
         <module name="e3-manager-mapper" />
         <module name="e3-manager-service" />
-        <module name="e3-manager-web" />
+        <module name="e3-web" />
         <module name="e3mall" />
       </profile>
     </annotationProcessing>
@@ -25,6 +25,7 @@
       <module name="e3-manager-service" target="1.7" />
       <module name="e3-manager-web" target="1.7" />
       <module name="e3-parent" target="1.7" />
+      <module name="e3-web" target="1.7" />
       <module name="e3mall" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -60,4 +60,13 @@
     select <include refid="base_sql" />
     from `tb_item`
   </select>
+
+    <select id="selectCountCondition" resultType="java.lang.Long">
+      select count(id) from tb_item
+    </select>
+
+  <select id="selectAllCondition" resultMap="BaseResultMap">
+    select <include refid="base_sql"/>
+    from tb_item limit #{start},#{rows}
+  </select>
 </mapper>
