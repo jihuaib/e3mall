@@ -22,6 +22,7 @@
                     address="192.168.70.129:2181" />
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:reference interface="muping.e3mall.service.TbItemService" id="tbItemService" />
+    <dubbo:reference interface="muping.e3mall.service.TbItemCatService" id="tbItemCatService" />
 
     <mvc:annotation-driven/>
 
